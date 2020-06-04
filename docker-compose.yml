@@ -1,0 +1,17 @@
+version: "3"
+services:
+  mongo:
+    image: mongo:4.2.7
+    ports:
+      - 27027:27017
+    volumes:
+      - node-tools-mongo-data:/data/db
+      - node-tools-mongo-config:/data/configdb
+
+# Volumes will persist on the host across restarts.
+# Delete them with 'docker-compose -p node-tools down -v' to start fresh.
+volumes:
+  node-tools-mongo-data:
+    driver: local
+  node-tools-mongo-config:
+    driver: local

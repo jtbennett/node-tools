@@ -8,6 +8,8 @@
     ]
   },
   "scripts": {
+    "dc:up": "docker-compose --file ./docker-compose.yml --project-name node-tools up -d",
+    "dc:down": "docker-compose --file ./docker-compose.yml --project-name node-tools down",
     "lint:all": "yarn workspaces run lint",
     "test:all": "yarn workspaces run test",
     "clean:all": "yarn workspaces run clean",

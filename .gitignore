@@ -9,7 +9,7 @@ dist
 lib
 coverage
 node_modules
-*.tsbuildinfo
+tsconfig.tsBuildInfo
 
 .DS_Store
 .env

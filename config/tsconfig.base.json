@@ -28,11 +28,10 @@
     // We want to be as strict as we can...
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
-    "strict": true
+    "strict": true,
 
     // ...but you may want to disable some things if they cause pain.
     // These are common sources of pain:
-    // "suppressImplicitAnyIndexErrors": true,
-    // "strictPropertyInitialization": false
+    "suppressImplicitAnyIndexErrors": true
   }
 }
