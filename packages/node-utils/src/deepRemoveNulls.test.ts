@@ -1,6 +1,6 @@
 import { deepRemoveNulls } from "./deepRemoveNulls";
 
-describe("deepRemoveNulls", () => {
+describe("deepRemoveNulls()", () => {
   it("removes all null-valued properties", () => {
     const input = {
       foo: null,

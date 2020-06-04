@@ -1,6 +1,6 @@
 {
   "name": "@jtbennett/node-utils",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "Utilities with minimal dependencies for use in node apps.",
   "keywords": [],
   "author": "John Bennett <john@jtbennett.com>",
