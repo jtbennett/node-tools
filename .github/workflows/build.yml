@@ -43,7 +43,6 @@ jobs:
 
       - name: Lint
         run: yarn lint:all
-
       # -------------------------------------------------------------------------
       # To automate publishing of your packages to npm:
       #
@@ -68,13 +67,11 @@ jobs:
       # The version number in your package.json files will not be updated in
       # source control. (Coming soon...)
       # -------------------------------------------------------------------------
-
       # - name: Set publish version from tag
       #   id: version
       #   if: ${{ startsWith(github.ref, 'refs/tags/v') }}
       #   run: |
       #     echo ::set-output name=VERSION::$(echo '${{ github.ref }}' | cut -c 12-)
-
       # - name: Publish
       #   if: ${{ startsWith(github.ref, 'refs/tags/v') }}
       #   env:
