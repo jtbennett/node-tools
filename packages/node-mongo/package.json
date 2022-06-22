@@ -24,7 +24,7 @@
     "purge": "yarn clean && rimraf ./coverage ./node_modules"
   },
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "dataloader": "^2.0.0",
     "lodash": "^4.17.15",
     "moment": "2.26.0",
